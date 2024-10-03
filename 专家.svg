@@ -1,0 +1,46 @@
+  <svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#F9F9F9;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    
+    <!-- 背景 -->
+    <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+    
+    <!-- 装饰图案 -->
+    <circle cx="30" cy="30" r="20" fill="#FFD700" opacity="0.5" />
+    <rect x="350" y="550" width="40" height="40" fill="#4169E1" opacity="0.5" />
+    
+    <!-- 标题 -->
+    <text x="200" y="60" font-family="SimKai, 楷体" font-size="32" fill="#333" text-anchor="middle">汉语新解</text>
+    
+    <!-- 分隔线 -->
+    <line x1="40" y1="80" x2="360" y2="80" stroke="#666" stroke-width="2" />
+    
+    <!-- 词语 -->
+    <text x="200" y="120" font-family="SimSun, 宋体" font-size="24" fill="#333" text-anchor="middle">专家</text>
+    <text x="200" y="150" font-family="Arial" font-size="16" fill="#666" text-anchor="middle">Expert</text>
+    <text x="200" y="180" font-family="MS Gothic" font-size="16" fill="#666" text-anchor="middle">専門家</text>
+    
+    <!-- 解释 -->
+    <text x="50" y="240" font-family="SimSun, 宋体" font-size="18" fill="#333">
+      <tspan x="50" dy="0">一群自诩全知的井底之蛙</tspan>
+      <tspan x="50" dy="30">用专业术语编织的迷雾</tspan>
+      <tspan x="50" dy="30">掩盖着无知与傲慢</tspan>
+      <tspan x="50" dy="30">却在每个时代</tspan>
+      <tspan x="50" dy="30">都能找到愿意膜拜的信徒</tspan>
+    </text>
+    
+    <!-- 批判内核图示 -->
+    <line x1="50" y1="420" x2="350" y2="420" stroke="#666" stroke-width="2" />
+    <circle cx="200" cy="420" r="5" fill="#FF4500" />
+    <text x="200" y="450" font-family="SimHei, 黑体" font-size="14" fill="#666" text-anchor="middle">知识的局限性与人性的弱点</text>
+    
+    <!-- 极简总结 -->
+    <text x="200" y="520" font-family="SimKai, 楷体" font-size="20" fill="#333" text-anchor="middle">
+      <tspan x="200" dy="0">无知的顶点</tspan>
+      <tspan x="200" dy="30">即为专家的起点</tspan>
+    </text>
+  </svg>
