@@ -1,0 +1,42 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#333" text-anchor="middle" font-weight="bold">Bolt.new 开发流程</text>
+  
+  <g transform="translate(50,150)">
+    <rect x="0" y="0" width="140" height="70" rx="15" ry="15" fill="url(#grad1)"/>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">访问Bolt.new</text>
+  </g>
+  
+  <line x1="190" y1="185" x2="250" y2="185" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <g transform="translate(250,150)">
+    <rect x="0" y="0" width="140" height="70" rx="15" ry="15" fill="url(#grad1)"/>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">描述项目需求</text>
+  </g>
+  
+  <line x1="390" y1="185" x2="450" y2="185" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <g transform="translate(450,150)">
+    <rect x="0" y="0" width="140" height="70" rx="15" ry="15" fill="url(#grad1)"/>
+    <text x="70" y="40" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">AI生成代码</text>
+  </g>
+  
+  <line x1="590" y1="185" x2="650" y2="185" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <g transform="translate(650,150)">
+    <rect x="0" y="0" width="140" height="70" rx="15" ry="15" fill="url(#grad1)"/>
+    <text x="70" y="30" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">编辑和测试</text>
+    <text x="70" y="50" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">一键部署</text>
+  </g>
+</svg>
