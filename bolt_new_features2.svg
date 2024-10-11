@@ -1,0 +1,45 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#333" text-anchor="middle" font-weight="bold">Bolt.new 核心特性</text>
+  
+  <g transform="translate(400,300)">
+    <circle cx="0" cy="0" r="200" fill="url(#grad1)" opacity="0.1"/>
+    <circle cx="0" cy="0" r="150" fill="url(#grad1)" opacity="0.2"/>
+    <circle cx="0" cy="0" r="100" fill="url(#grad1)" opacity="0.3"/>
+  </g>
+  
+  <g transform="translate(400,300)">
+    <g transform="rotate(0)">
+      <line x1="0" y1="-220" x2="0" y2="-180" stroke="#4285f4" stroke-width="2"/>
+      <text x="0" y="-230" font-family="Arial, sans-serif" font-size="16" fill="#4285f4" text-anchor="middle">AI驱动开发</text>
+    </g>
+    <g transform="rotate(60)">
+      <line x1="0" y1="-220" x2="0" y2="-180" stroke="#34a853" stroke-width="2"/>
+      <text x="0" y="-230" font-family="Arial, sans-serif" font-size="16" fill="#34a853" text-anchor="middle">WebContainers</text>
+    </g>
+    <g transform="rotate(120)">
+      <line x1="0" y1="-220" x2="0" y2="-180" stroke="#fbbc05" stroke-width="2"/>
+      <text x="0" y="-230" font-family="Arial, sans-serif" font-size="16" fill="#fbbc05" text-anchor="middle">高效开发</text>
+    </g>
+    <g transform="rotate(180)">
+      <line x1="0" y1="-220" x2="0" y2="-180" stroke="#ea4335" stroke-width="2"/>
+      <text x="0" y="-230" font-family="Arial, sans-serif" font-size="16" fill="#ea4335" text-anchor="middle">一键部署</text>
+    </g>
+    <g transform="rotate(240)">
+      <line x1="0" y1="-220" x2="0" y2="-180" stroke="#46bdc6" stroke-width="2"/>
+      <text x="0" y="-230" font-family="Arial, sans-serif" font-size="16" fill="#46bdc6" text-anchor="middle">全栈支持</text>
+    </g>
+    <g transform="rotate(300)">
+      <line x1="0" y1="-220" x2="0" y2="-180" stroke="#9c27b0" stroke-width="2"/>
+      <text x="0" y="-230" font-family="Arial, sans-serif" font-size="16" fill="#9c27b0" text-anchor="middle">实时协作</text>
+    </g>
+  </g>
+</svg>
