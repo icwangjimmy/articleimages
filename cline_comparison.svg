@@ -1,0 +1,47 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .title { font: bold 28px sans-serif; }
+        .feature { font: 20px sans-serif; }
+        .check { fill: green; font-size: 24px; }
+        .question { fill: #FFA500; font-size: 24px; }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="40" text-anchor="middle" class="title">Cline vs 其他AI编程助手</text>
+    
+    <!-- Table Header -->
+    <line x1="50" y1="60" x2="750" y2="60" stroke="black" stroke-width="2" />
+    <text x="200" y="90" text-anchor="middle" class="feature">特性</text>
+    <text x="500" y="90" text-anchor="middle" class="feature">Cline</text>
+    <text x="650" y="90" text-anchor="middle" class="feature">其他</text>
+    
+    <!-- Features -->
+    <text x="200" y="130" text-anchor="middle" class="feature">全面的项目支持</text>
+    <text x="200" y="170" text-anchor="middle" class="feature">灵活的模型选择</text>
+    <text x="200" y="210" text-anchor="middle" class="feature">高成本效益</text>
+    <text x="200" y="250" text-anchor="middle" class="feature">人机协作</text>
+    <text x="200" y="290" text-anchor="middle" class="feature">多模态能力</text>
+    <text x="200" y="330" text-anchor="middle" class="feature">深度集成VSCode</text>
+    
+    <!-- Cline Checks -->
+    <text x="500" y="130" text-anchor="middle" class="check">✓</text>
+    <text x="500" y="170" text-anchor="middle" class="check">✓</text>
+    <text x="500" y="210" text-anchor="middle" class="check">✓</text>
+    <text x="500" y="250" text-anchor="middle" class="check">✓</text>
+    <text x="500" y="290" text-anchor="middle" class="check">✓</text>
+    <text x="500" y="330" text-anchor="middle" class="check">✓</text>
+    
+    <!-- Others Questions -->
+    <text x="650" y="130" text-anchor="middle" class="question">?</text>
+    <text x="650" y="170" text-anchor="middle" class="question">?</text>
+    <text x="650" y="210" text-anchor="middle" class="question">?</text>
+    <text x="650" y="250" text-anchor="middle" class="question">?</text>
+    <text x="650" y="290" text-anchor="middle" class="question">?</text>
+    <text x="650" y="330" text-anchor="middle" class="question">?</text>
+    
+    <!-- Divider Lines -->
+    <line x1="50" y1="110" x2="750" y2="110" stroke="black" stroke-width="2" />
+    <line x1="350" y1="60" x2="350" y2="350" stroke="black" stroke-width="2" />
+    <line x1="600" y1="60" x2="600" y2="350" stroke="black" stroke-width="2" />
+    <line x1="50" y1="350" x2="750" y2="350" stroke="black" stroke-width="2" />
+</svg>
