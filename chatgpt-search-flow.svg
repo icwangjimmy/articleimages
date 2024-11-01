@@ -1,0 +1,46 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- 用户输入框 -->
+  <rect x="50" y="50" width="200" height="60" rx="10" fill="#ffffff" stroke="#10a37f" stroke-width="2"/>
+  <text x="150" y="85" text-anchor="middle" font-size="14" fill="#333">用户自然语言提问</text>
+  
+  <!-- 箭头1 -->
+  <path d="M 250 80 L 300 80" stroke="#10a37f" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- ChatGPT处理框 -->
+  <rect x="300" y="40" width="200" height="80" rx="10" fill="#10a37f" stroke="none"/>
+  <text x="400" y="75" text-anchor="middle" font-size="14" fill="white">ChatGPT分析</text>
+  <text x="400" y="95" text-anchor="middle" font-size="12" fill="white">判断是否需要搜索</text>
+  
+  <!-- 箭头2 -->
+  <path d="M 500 80 L 550 80" stroke="#10a37f" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- 搜索结果框 -->
+  <rect x="550" y="50" width="200" height="60" rx="10" fill="#ffffff" stroke="#10a37f" stroke-width="2"/>
+  <text x="650" y="85" text-anchor="middle" font-size="14" fill="#333">整合搜索结果</text>
+  
+  <!-- 信息来源图标 -->
+  <rect x="100" y="200" width="140" height="40" rx="5" fill="#e9ecef" stroke="none"/>
+  <text x="170" y="225" text-anchor="middle" font-size="12" fill="#333">新闻数据源</text>
+  
+  <rect x="330" y="200" width="140" height="40" rx="5" fill="#e9ecef" stroke="none"/>
+  <text x="400" y="225" text-anchor="middle" font-size="12" fill="#333">合作媒体内容</text>
+  
+  <rect x="560" y="200" width="140" height="40" rx="5" fill="#e9ecef" stroke="none"/>
+  <text x="630" y="225" text-anchor="middle" font-size="12" fill="#333">实时数据源</text>
+  
+  <!-- 连接线 -->
+  <path d="M 170 200 L 400 120" stroke="#dee2e6" stroke-width="1" stroke-dasharray="4"/>
+  <path d="M 400 200 L 400 120" stroke="#dee2e6" stroke-width="1" stroke-dasharray="4"/>
+  <path d="M 630 200 L 400 120" stroke="#dee2e6" stroke-width="1" stroke-dasharray="4"/>
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+        markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#10a37f"/>
+    </marker>
+  </defs>
+</svg>
