@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 六边形渐变 -->
+    <linearGradient id="hexGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f43f5e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e11d48;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="hexGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="hexGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0.8" />
+    </linearGradient>
+
+    <!-- 阴影效果 -->
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.2"/>
+    </filter>
+
+    <!-- 发光效果 -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 连接线渐变 -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#94a3b8;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#94a3b8;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#94a3b8;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="0" y="0" width="800" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- 装饰背景 -->
+  <g opacity="0.1">
+    <circle cx="100" cy="300" r="150" fill="#f43f5e"/>
+    <circle cx="700" cy="100" r="150" fill="#3b82f6"/>
+  </g>
+
+  <!-- 中心标题 -->
+  <text x="400" y="60" 
+        fill="#1e293b" 
+        text-anchor="middle" 
+        font-family="Arial" 
+        font-size="28" 
+        font-weight="bold">AI开发面临的主要挑战</text>
+
+  <!-- 连接线 -->
+  <g stroke="url(#lineGrad)" stroke-width="2">
+    <path d="M 300,200 L 500,200" stroke-dasharray="5,5"/>
+    <path d="M 400,200 L 400,320" stroke-dasharray="5,5"/>
+  </g>
+
+  <!-- 六边形组 -->
+  <g>
+    <!-- 技术挑战 -->
+    <g transform="translate(200,200)">
+      <path d="M 0,-80 L 70,-40 L 70,40 L 0,80 L -70,40 L -70,-40 Z" 
+            fill="url(#hexGrad1)" 
+            filter="url(#shadow)"/>
+      
+      <text x="0" y="-30" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="20" 
+            font-weight="bold">技术挑战</text>
+      
+      <text x="0" y="0" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">代码质量保证</text>
+      
+      <text x="0" y="25" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">安全性验证</text>
+      
+      <text x="0" y="50" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">性能优化</text>
+    </g>
+
+    <!-- 伦理挑战 -->
+    <g transform="translate(600,200)">
+      <path d="M 0,-80 L 70,-40 L 70,40 L 0,80 L -70,40 L -70,-40 Z" 
+            fill="url(#hexGrad2)" 
+            filter="url(#shadow)"/>
+      
+      <text x="0" y="-30" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="20" 
+            font-weight="bold">伦理挑战</text>
+      
+      <text x="0" y="0" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">隐私保护</text>
+      
+      <text x="0" y="25" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">数据安全</text>
+      
+      <text x="0" y="50" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">责任界定</text>
+    </g>
+
+    <!-- 实践挑战 -->
+    <g transform="translate(400,320)">
+      <path d="M 0,-80 L 70,-40 L 70,40 L 0,80 L -70,40 L -70,-40 Z" 
+            fill="url(#hexGrad3)" 
+            filter="url(#shadow)"/>
+      
+      <text x="0" y="-30" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="20" 
+            font-weight="bold">实践挑战</text>
+      
+      <text x="0" y="0" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">开发流程适配</text>
+      
+      <text x="0" y="25" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">团队协作模式</text>
+      
+      <text x="0" y="50" 
+            fill="white" 
+            text-anchor="middle" 
+            font-family="Arial" 
+            font-size="14">成本效益平衡</text>
+    </g>
+  </g>
+</svg>
